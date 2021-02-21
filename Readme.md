@@ -9,5 +9,9 @@ https://colab.research.google.com/github/sadeghitabas/CPSC8430-DeepLearning/blob
 https://colab.research.google.com/github/sadeghitabas/CPSC8430-DeepLearning/blob/master/CNN_MNIST.ipynb
 https://colab.research.google.com/github/sadeghitabas/CPSC8430-DeepLearning/blob/master/DNN_MNIST.ipynb
 
+Please contact me if there is any problem. 
+E-mail: sadeghs@clemson.edu 
+Phone: 8034638476
+
 Thanks,
 Sadegh,
