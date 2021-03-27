@@ -12,9 +12,13 @@ In order to test the model, the "training_label.json" should be provided in the 
 Please first request a session on a GPU node and install the following packages on palmetto:
 
 conda create -n pytorch_env pip python=3.8.3
+
 source activate pytorch_env
+
 conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
+
 conda install pandas
+
 conda instal scypy
 
 Please contact me if there is any problem. 
