@@ -21,9 +21,9 @@ from bleu_eval import BLEU
 
 
 if not torch.cuda.is_available():
-    model = torch.load('SavedModel/model3.h5', map_location=lambda storage, loc: storage)
+    model = torch.load('SavedModel/model4.h5', map_location=lambda storage, loc: storage)
 else:
-    model = torch.load('SavedModel/model3.h5')
+    model = torch.load('SavedModel/model4.h5')
 
 dataset = test_data('{}/testing_data/feat'.format(sys.argv[1]))
 testing_loader = DataLoader(dataset, batch_size=32, shuffle=True, num_workers=8)
