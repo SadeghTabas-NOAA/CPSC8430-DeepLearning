@@ -21,13 +21,13 @@ from bleu_eval import BLEU
 
 
 if not torch.cuda.is_available():
-    model = torch.load('SavedModel/new3.h5', map_location=lambda storage, loc: storage)
+    model = torch.load('SavedModel/model3.h5', map_location=lambda storage, loc: storage)
 else:
     model = torch.load('SavedModel/model3.h5')
 
 dataset = test_data('{}/testing_data/feat'.format(sys.argv[1]))
 testing_loader = DataLoader(dataset, batch_size=32, shuffle=True, num_workers=8)
-training_json = '{}/training_label.json'.format(sys.argv[1])
+training_json = 'MLDS_hw2_1_data/training_label.json'
 helper = dictionary(training_json, min_word_count=3)
 testing = training(model=model, test_dataloader=testing_loader, helper=helper)
 for epoch in range(1):
