@@ -6,7 +6,7 @@ In order to run the codes just clone the repository and run
 ### Requirments:
 In order to train the model the train and test datasets should be provided in the "MLDS_hw2_1_data" directory.
 
-In order to test the model, the "training_label.json" should be provided in the "MLDS_hw2_1_data" directory as well as test dataset. 
+In order to test the model, besides providing test dataset, the "training_label.json" should be provided in the "MLDS_hw2_1_data" directory. 
 
 ### Run on Palmetto:
 Please first request a session on a GPU node and install the following packages on palmetto:
