@@ -19,7 +19,7 @@ conda install pytorch torchvision cudatoolkit=9.2 -c pytorch
 
 conda install pandas
 
-conda install scypy
+conda install scipy
 
 Please contact me if there is any problem. 
 
