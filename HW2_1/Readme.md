@@ -26,6 +26,7 @@ Please contact me if there is any problem.
 E-mail: sadeghs@clemson.edu 
 
 Phone: 8034638476
-equesst 
+
 Thanks,
+
 Sadegh,
